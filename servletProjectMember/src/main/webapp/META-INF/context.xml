@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource name="jdbc/servletproject"
+	auth="Container"
+	type="javax.sql.DataSource"
+	username="test"
+	password="1111"
+	driverClassName="oracle.jdbc.driver.OracleDriver"
+	factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+	url="jdbc:oracle:thin:@127.0.0.1:1521:XE"
+	maxActive="500"
+	maxldle="100"/>
+</Context>
